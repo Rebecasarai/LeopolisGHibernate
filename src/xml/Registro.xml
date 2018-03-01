@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+<Anotaciones>
+
+<Asiento ID="5010" Tipo="Nacimiento">
+		<Ciudadane ID="32222">
+			<Madre ID="2"/><!--- Se inserta un ciudadane con un ID de padre o madre que no existe  -->
+			<Padre ID="1"/> 
+			<Nombre>aaaaaaaaaaaaa</Nombre>
+			<Apellidos>Loperz</Apellidos>
+			<FechaNacimiento>24/01/2020</FechaNacimiento>
+			<Sexo>M</Sexo>
+			<PastaFavorita>tortillaDePatata</PastaFavorita>
+		</Ciudadane>
+</Asiento>
+        
+<!--<Asiento ID="5019" Tipo="Divorcio">
+		<Matrimonio>2</Matrimonio>
+		<Fecha>24/12/2016</Fecha>
+</Asiento>-->
+        
+<Asiento ID="50020" Tipo="Nacimiento">
+            <Ciudadane ID="83">
+            <Madre ID="29"/>
+            <Padre ID="50"/>
+            <Nombre>Anastasia</Nombre>
+            <Apellidos>Del Bosque Salvatierra</Apellidos>
+            <FechaNacimiento>24/01/2017</FechaNacimiento>
+            <Sexo>M</Sexo>
+            <PastaFavorita>Macarrones</PastaFavorita>
+            </Ciudadane>
+</Asiento>
+        
+<Asiento ID="5005" Tipo="Matrimonio">
+        <Ciudadane ID="42"/>
+        <Ciudadane ID="44"/>
+        <Fecha>14/01/2018</Fecha>
+        </Asiento>
+</Anotaciones>

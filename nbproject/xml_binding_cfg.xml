@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated-sources/jaxb' projectName='Leopolis' version='1.0'>
+	<schema type='-xmlschema' package='clasesJaxb' name='Esquema'>
+		<xjc-options>
+			<xjc-option name='-quiet' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/Esquema/xml_schema.xsd' origLocation='src/xml/xml_schema.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+	<schema type='-xmlschema' package='clasesJaxb' name='clasesJaxb'>
+		<xjc-options>
+			<xjc-option name='-quiet' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/clasesJaxb/xml_schema.xsd' origLocation='../../GitHub/LeopolisBuena/src/xmlShema/xml_schema.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+	<schema type='-xmlschema' package='claseIncidencias' name='claseIncidencias'>
+		<xjc-options>
+			<xjc-option name='-quiet' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/claseIncidencias/xml_schema_Incidencias.xsd' origLocation='../../GitHub/LeopolisBuena/src/xmlShema/xml_schema_Incidencias.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>

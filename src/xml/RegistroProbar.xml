@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+<Anotaciones>
+	<Asiento ID="5007" Tipo="Nacimiento">
+		<Ciudadane ID="78"><!--- ciudadane ID existente -->
+			<Madre ID="29"/>
+			<Padre ID="50"/>
+			<Nombre>Fran</Nombre>
+			<Apellidos>Rodriguez</Apellidos>
+			<FechaNacimiento>24/01/2018</FechaNacimiento>
+			<Sexo>M</Sexo>
+			<PastaFavorita>Fideos</PastaFavorita>
+		</Ciudadane>
+	</Asiento>
+	<Asiento ID="5008" Tipo="Nacimiento">
+		<Ciudadane ID="58">
+			<Madre ID="29"/>
+			<Padre ID="50"/>
+			<Nombre>Sandra</Nombre>
+			<Apellidos>Yero</Apellidos>
+			<FechaNacimiento>24/01/2018</FechaNacimiento>
+			<Sexo>F</Sexo>
+			<PastaFavorita>Rigatoni</PastaFavorita><!--- pasta favorita inexistente  -->
+		</Ciudadane>
+	</Asiento>
+	
+	<Asiento ID="5009" Tipo="Nacimiento">
+		<Ciudadane ID="5888">
+			<Madre ID="29"/>
+			<Padre ID="50"/>
+			<Nombre>Rebeca</Nombre>
+			<Apellidos>Nolose</Apellidos>
+			<FechaNacimiento>24/01/2128</FechaNacimiento><!--- Se inserta un ciudadane con una fecha de nacimiento futura. -->
+			<Sexo>F</Sexo>
+			<PastaFavorita>Spagueti</PastaFavorita>
+		</Ciudadane>
+	</Asiento>
+	
+	<Asiento ID="5010" Tipo="Nacimiento">
+		<Ciudadane ID="5888">
+			<Madre ID="299"/><!--- Se inserta un ciudadane con un ID de padre o madre que no existe  -->
+			<Padre ID="50"/> 
+			<Nombre>Carmen</Nombre>
+			<Apellidos>Loperz</Apellidos>
+			<FechaNacimiento>24/01/2018</FechaNacimiento>
+			<Sexo>M</Sexo>
+			<PastaFavorita>Pizza</PastaFavorita>
+		</Ciudadane>
+	</Asiento>
+	
+	<Asiento ID="5011" Tipo="Matrimonio">
+		<Ciudadane ID="432"/><!---Un matrimonio que incluya un id de Ciudadane que no existe -->
+		<Ciudadane ID="44"/>
+		<Fecha>14/01/2018</Fecha>
+	</Asiento> 
+	
+	
+	<Asiento ID="5012" Tipo="Matrimonio">
+		<Ciudadane ID="32"/><!---Un matrimonio que incluya un ciudadane que ya esté casade -->
+		<Ciudadane ID="29"/>
+		<Fecha>06/10/2014</Fecha>
+	</Asiento>
+	<Asiento ID="5013" Tipo="Matrimonio">
+		<Ciudadane ID="4"/><!---Un matrimonio en el que uno de los contrayentes hay a fallecido -->
+		<Ciudadane ID="29"/>
+		<Fecha>06/10/2014</Fecha>
+	</Asiento>
+	
+	
+	<Asiento ID="5014" Tipo="Matrimonio">
+		<Ciudadane ID="6"/><!---Un matrimonio con una fecha futura  -->
+		<Ciudadane ID="7"/>
+		<Fecha>14/01/2058</Fecha>
+	</Asiento>
+	
+	<Asiento ID="5015" Tipo="Divorcio">
+		<Matrimonio>20</Matrimonio><!---Un divorcio para un matrimonio que no existe   -->
+		<Fecha>24/12/2017</Fecha>
+	</Asiento>
+	
+	
+	<Asiento ID="5016" Tipo="Divorcio">
+		<Matrimonio>2</Matrimonio><!---Un divorcio con una fecha anterior al matrimonio    -->
+		<Fecha>03/05/1950</Fecha>
+	</Asiento>
+	
+	
+	  <Asiento ID="5017" Tipo="Deceso">
+		<Ciudadane ID="1000"/><!---La muerte de un ciudadane que no existe -->
+		<Fecha>13/12/2017</Fecha>		
+	</Asiento>
+	
+	
+	  <Asiento ID="5018" Tipo="Deceso">
+		<Ciudadane ID="4"/><!---La muerte de un ciudadane que ya estaba muerto -->
+		<Fecha>13/12/2017</Fecha>		
+	</Asiento>
+
+	<Asiento ID="5019" Tipo="Divorcio">
+		<Matrimonio>4</Matrimonio><!---Un divorcio para un matrimonio que ya estaba disuelto (divorcio anterior). -->
+		<Fecha>03/05/1950</Fecha>
+	</Asiento>
+	
+
+</Anotaciones>

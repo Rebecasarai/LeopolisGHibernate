@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/rsgonzalez/Documents/NetBeansProjects/Leopolis/src/xml/xml_schema.xsd" uri="xml-resources/jaxb/Esquema/xml_schema.xsd"/>
+    <system systemId="file:/C:/Users/fran9/Desktop/DAM/ACDAT/Ejercicios/Leopolis/src/xml/xml_schema.xsd" uri="xml-resources/jaxb/clasesJaxb/xml_schema.xsd"/>
+    <system systemId="file:/C:/Users/fran9/Desktop/DAM/ACDAT/Ejercicios/Leopolis/src/xml/xml_schema_Incidencias.xsd" uri="xml-resources/jaxb/claseIncidencias/xml_schema_Incidencias.xsd"/>
+    <system systemId="file:/C:/Users/fjrodriguez/Desktop/Probar/LeopolisBuena/../../GitHub/LeopolisBuena/src/xmlShema/xml_schema.xsd" uri="xml-resources/jaxb/clasesJaxb/xml_schema.xsd"/>
+    <system systemId="file:/C:/Users/fjrodriguez/Desktop/Probar/LeopolisBuena/../../GitHub/LeopolisBuena/src/xmlShema/xml_schema_Incidencias.xsd" uri="xml-resources/jaxb/claseIncidencias/xml_schema_Incidencias.xsd"/>
+</catalog>

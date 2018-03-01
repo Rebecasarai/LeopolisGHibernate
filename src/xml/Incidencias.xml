@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Incidencias>
+    <Incidencia ID="0">
+        <ID_Asiento>5010</ID_Asiento>
+        <Tipo_Asiento>Nacimiento</Tipo_Asiento>
+        <Error>Ciudadane con una fecha de nacimiento futura</Error>
+        <FechaError>Thu Mar 01 14:35:41 CET 2018</FechaError>
+    </Incidencia>
+</Incidencias>
